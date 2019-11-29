@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pregunta5">
+
+    <ImageView
+        android:id="@+id/imageGame"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/malefica" />
+
+    <TextView
+        android:id="@+id/textPregunta"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="52dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="@string/pregunta5"/>
+
+    <Button
+        android:id="@+id/btnAsk_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/respuesta51"
+        android:onClick="btn_Pregunta" />
+
+    <Button
+        android:id="@+id/btnAsk_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/respuesta52"
+        android:onClick="btn_Pregunta"/>
+
+    <Button
+        android:id="@+id/btnAsk_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/respuesta53"
+        android:onClick="btn_Pregunta"/>
+
+    <Button
+        android:id="@+id/btnAsk_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/respuesta54"
+        android:onClick="btn_Pregunta" />
+
+</LinearLayout>

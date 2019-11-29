@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MegaCine</string>
+    <string name="pregunta1">Cual es el actor principal?</string>
+    <string name="pregunta2">Como se llama la pelicula?</string>
+    <string name="pregunta3">Cual es el actor personaje?</string>
+    <string name="pregunta4">Quien le dio el traje nuevo a Spider-man?</string>
+    <string name="pregunta5">Cual es el actor principal?</string>
+
+    <string name="respuesta11">Leonardo DiCarpio</string>
+    <string name="respuesta12">Liam Neson</string>
+    <string name="respuesta13">Will Smith</string>
+    <string name="respuesta14">Mario Cansas</string>
+
+    <string name="respuesta21">Tarzan</string>
+    <string name="respuesta22">Spider-man </string>
+    <string name="respuesta23">titanic </string>
+    <string name="respuesta24">Malefica</string>
+
+    <string name="respuesta31">Capitan America</string>
+    <string name="respuesta32">Capitan Grafio</string>
+    <string name="respuesta33">Pablo Escobar</string>
+    <string name="respuesta34">Spider-man</string>
+
+    <string name="respuesta41">Iron-man</string>
+    <string name="respuesta42">Capitan America</string>
+    <string name="respuesta43">Hulk</string>
+    <string name="respuesta44">Capitan Garfio</string>
+
+    <string name="respuesta51">Iron-man</string>
+    <string name="respuesta52">Capitan America</string>
+    <string name="respuesta53">Vanesa</string>
+    <string name="respuesta54">Angelina Jolie</string>
+
+    <string name="politicas">"-)Solo tendrá un intento \n-)Son 5 preguntas relacionadas a diversos géneros de cine \n-)Si acierta todas se hará acreedor a una entrada de cine \n \n********************************************\n\n              QUE EMPIEZE EL JUEGO\n\n********************************************"</string>
+
+</resources>

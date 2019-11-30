@@ -16,8 +16,6 @@ public class pantallaFinal extends AppCompatActivity {
         Button btna = (Button)findViewById(R.id.btnMainScreen);
     }
 
-
-
     public void salir(View view){
         Intent intent = new Intent(Intent.ACTION_MAIN);
         intent.addCategory(Intent.CATEGORY_HOME);

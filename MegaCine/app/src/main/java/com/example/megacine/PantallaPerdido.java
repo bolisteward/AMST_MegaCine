@@ -19,17 +19,15 @@ public class PantallaPerdido extends AppCompatActivity {
     TextView textView3;
     int i;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantalla_perdido);
-        Button btn1 = (Button)findViewById(R.id.btnVolverJugar);
-        Button btn2 = (Button)findViewById(R.id.btnSalir);
+        btnJugar = (Button)findViewById(R.id.btnVolverJugar);
+        btnSalir = (Button)findViewById(R.id.btnSalir);
         textView3= (TextView) findViewById(R.id.textView3);
 
         i = getIntent().getIntExtra("i",0);
-
         textView3.setText("Has logrado alcanzar "+i+ " aciertos");
 
     }

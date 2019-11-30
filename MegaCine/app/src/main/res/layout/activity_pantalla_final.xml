@@ -17,10 +17,7 @@
         android:text="HA GANADO UNA ENTRADA AL CINE"
         android:textAlignment="center"
         android:textColor="#292623"
-        android:textSize="20dp"
-
-
-        />
+        android:textSize="20dp" />
 
     <ImageView
         android:id="@+id/imageView"
